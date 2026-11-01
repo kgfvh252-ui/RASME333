@@ -1,0 +1,355 @@
+{
+  "customers": [
+    {
+      "id": "cust-972501234567",
+      "phoneNumber": "972501234567",
+      "name": "أحمد الخطيب",
+      "tags": [
+        "عميل مهتم",
+        "مهتم بـ X1"
+      ],
+      "notes": "استفسر عن عزل الضوضاء وعمر البطارية، يفضل الشحن السريع.",
+      "stage": "negotiation",
+      "language": "ar",
+      "unreadCount": 0,
+      "lastMessageAt": "2026-10-31T22:28:20.270Z",
+      "totalSpent": 0,
+      "ordersCount": 0,
+      "memory": {
+        "interests": [
+          "سماعات رأس",
+          "عزل الضوضاء",
+          "مكالمات العمل"
+        ],
+        "objections": [
+          "المقارنة مع سوني وبوز"
+        ],
+        "budget": "350 ILS",
+        "preferredLanguage": "ar",
+        "notes": "يعمل عن بعد ويبحث عن سماعة ممتازة لعزل الضجيج.",
+        "keyFacts": [
+          "مقيم في القدس",
+          "يستخدم هاتف أندرويد ولابتوب ويندوز"
+        ]
+      },
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "cust-972549876543",
+      "phoneNumber": "972549876543",
+      "name": "רוני כהן",
+      "tags": [
+        "לקוח מתעניין",
+        "ספורט"
+      ],
+      "notes": "התעניין ב-NEXO Ultra Watch 3 לענפי ריצה ושחייה.",
+      "stage": "contacted",
+      "language": "he",
+      "unreadCount": 1,
+      "lastMessageAt": "2026-10-31T21:28:20.270Z",
+      "totalSpent": 0,
+      "ordersCount": 0,
+      "memory": {
+        "interests": [
+          "NEXO Ultra Watch 3",
+          "שחייה",
+          "ריצה"
+        ],
+        "objections": [],
+        "budget": "500 ILS",
+        "preferredLanguage": "he",
+        "notes": "רץ מרתון שמתאמן מספר פעמים בשבוע.",
+        "keyFacts": [
+          "מתגורר בתל אביב",
+          "מעוניין בעמידות למים 5ATM"
+        ]
+      },
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80"
+    }
+  ],
+  "messages": {
+    "cust-972501234567": [
+      {
+        "id": "msg-001",
+        "customerId": "cust-972501234567",
+        "sender": "customer",
+        "text": "مرحباً، هل سماعة نكسو X1 تعزل صوت الزحمة ومكاتب العمل المفتوحة بشكل ممتاز؟",
+        "timestamp": "2026-10-31T21:28:20.270Z",
+        "status": "read"
+      },
+      {
+        "id": "msg-002",
+        "customerId": "cust-972501234567",
+        "sender": "ai",
+        "text": "أهلاً بك أخي أحمد! نعم بالتأكيد، سماعات NEXO Pro Sound X1 مزودة بتقنية العزل النشط الهجين (Hybrid ANC) بعمق يصل إلى 40dB، وهي مصممة خصيصاً لإلغاء ضوضاء المكاتب والأصوات المحيطة مع الحفاظ على صفاء مكالماتك بفضل 4 ميكروفونات ذكية. هل ترغب في معرفة تفاصيل أكثر عنها؟",
+        "timestamp": "2026-10-31T21:30:00.270Z",
+        "status": "read",
+        "aiProvider": "gemini"
+      },
+      {
+        "id": "msg-003",
+        "customerId": "cust-972501234567",
+        "sender": "customer",
+        "text": "ممتاز، وكم سعرها حالياً مع التوصيل؟",
+        "timestamp": "2026-10-31T22:28:20.270Z",
+        "status": "read"
+      },
+      {
+        "id": "msg-004",
+        "customerId": "cust-972501234567",
+        "sender": "ai",
+        "text": "سعرها حالياً في العرض الخاص 349 شيكل بدلاً من 449 شيكل، شامل التوصيل السريع وضمان معتمد لمدة 12 شهراً.",
+        "timestamp": "2026-10-31T22:30:00.270Z",
+        "status": "read",
+        "aiProvider": "gemini"
+      }
+    ],
+    "cust-972549876543": [
+      {
+        "id": "msg-005",
+        "customerId": "cust-972549876543",
+        "sender": "customer",
+        "text": "שלום, האם ה-Ultra Watch 3 מתאים לשחייה בבריכה ובים?",
+        "timestamp": "2026-10-31T21:28:20.270Z",
+        "status": "delivered"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "NEXO Pro Sound X1 Wireless ANC Headphones",
+      "arabicName": "سماعات نكسو برو ساوند X1 اللاسلكية مع عزل الضوضاء النشط",
+      "hebrewName": "אוזניות אלחוטיות NEXO Pro Sound X1 עם ביטול רעשים אקטיבי",
+      "description": "سماعات رأس لاسلكية متميزة بعزل ضوضاء فعال حتى 40dB، صوت عالي الدقة Hi-Res، بطارية تدوم 45 ساعة، وشحن سريع خلال 10 دقائق.",
+      "price": 349,
+      "originalPrice": 449,
+      "currency": "ILS",
+      "sku": "NX-SND-X1",
+      "stock": 28,
+      "category": "Audio",
+      "features": [
+        "عزل ضوضاء نشط هجين ANC يصل إلى 40dB",
+        "عمر بطارية يصل إلى 45 ساعة تشغيل متواصل",
+        "دعم ترميز LDAC و AAC لصوت عالي الدقة",
+        "ميكروفونات متعددة بتقنية الذكاء الاصطناعي لمكالمات فائقة الوضوح",
+        "اتصال بجهازين في نفس الوقت Bluetooth 5.3"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+      "inStock": true
+    },
+    {
+      "id": "prod-002",
+      "name": "NEXO Ultra Watch 3 AMOLED Smartwatch",
+      "arabicName": "ساعة نكسو الذكية ألترا 3 بشاشة أموليد مقاومة للماء",
+      "hebrewName": "שעון חכם NEXO Ultra Watch 3 עם מסך AMOLED ועמידות במים",
+      "description": "ساعة ذكية فاخرة بإطار من التيتانيوم وشاشة AMOLED سطوع 1200nits، مراقبة نبضات القلب، تخطيط القلب ECG، قياس الأكسجين، GPS مزدوج، وبطارية 14 يوماً.",
+      "price": 499,
+      "originalPrice": 620,
+      "currency": "ILS",
+      "sku": "NX-WCH-U3",
+      "stock": 19,
+      "category": "Wearables",
+      "features": [
+        "شاشة 1.43 بوصة AMOLED فائقة السطوع تعمل دائماً Always-On",
+        "هيكل متين من سبائك التيتانيوم ومقاومة ماء 5ATM للسباحة",
+        "نظام GPS ثنائي التردد لتتبع المسارات والرياضة بدقة متناهية",
+        "أكثر من 120 وضعاً رياضياً ومتابعة النوم المتقدمة",
+        "إجراء واستقبال المكالمات بوضوح تام عبر مكبر صوت وميكروفون مدمجين"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+      "inStock": true
+    },
+    {
+      "id": "prod-003",
+      "name": "NEXO Pure Air Mini Smart Purifier",
+      "arabicName": "جهاز تنقية الهواء الذكي المحمول نكسو بيور إير ميني",
+      "hebrewName": "מטהר אוויר חכם וקומפקטי NEXO Pure Air Mini",
+      "description": "منقي هواء مدمج ذكي بفلتر HEPA H13 حقيقي يزيل 99.97% من الجسيمات الدقيقة والدخان والروائح المزعجة، مثالي للمكتب وغرفة النوم والسيارة.",
+      "price": 219,
+      "originalPrice": 280,
+      "currency": "ILS",
+      "sku": "NX-AIR-M1",
+      "stock": 42,
+      "category": "Home & Office",
+      "features": [
+        "فلتر HEPA H13 أصلي من 3 مراحل تنقية",
+        "مستشعر ذكي لمؤشر جودة الهواء مع إضاءة ملونة تفاعلية",
+        "مستوى ضوضاء فائق الهدوء 22dB لوضع النوم الهادئ",
+        "منفذ شحن USB-C واستهلاك طاقة منخفض جداً",
+        "تغطية مساحة تصل إلى 20 متراً مربعاً"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&auto=format&fit=crop&q=80",
+      "inStock": true
+    },
+    {
+      "id": "prod-004",
+      "name": "NEXO Turbo Mag 3-in-1 Fast Wireless Charger",
+      "arabicName": "قاعدة شحن لاسلكية سريعة مغناطيسية 3 في 1 نكسو توربو ماغ",
+      "hebrewName": "עמדת טעינה אלחוטית מהירה 3 ב-1 NEXO Turbo Mag",
+      "description": "منصة شحن مغناطيسية قابلة للطي تشحن الهاتف والساعة وسماعات الأذن في وقت واحد بقوة تصل إلى 15W مع حماية متكاملة من الحرارة والجهد الزائد.",
+      "price": 169,
+      "originalPrice": 220,
+      "currency": "ILS",
+      "sku": "NX-CHG-M3",
+      "stock": 55,
+      "category": "Accessories",
+      "features": [
+        "شحن متزامن لـ 3 أجهزة (هاتف + ساعة + سماعات)",
+        "محاذاة مغناطيسية قوية MagSafe متوافقة مع أجهزة آيفون وسامسونج الحديثة",
+        "تصميم مدمج قابل للطي مناسب للسفر والرحلات",
+        "حماية مدمجة ضد ارتفاع درجة الحرارة والتيار الزائد",
+        "إضاءة محيطية لطيفة يمكن إيقافها بلمسة واحدة"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1622445262464-84b14e32452e?w=800&auto=format&fit=crop&q=80",
+      "inStock": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1001",
+      "orderNumber": "NX-98214",
+      "customerId": "cust-972501234567",
+      "customerName": "أحمد الخطيب",
+      "customerPhone": "972501234567",
+      "items": [
+        {
+          "productId": "prod-001",
+          "productName": "NEXO Pro Sound X1 Wireless ANC Headphones",
+          "quantity": 1,
+          "price": 349,
+          "totalPrice": 349
+        }
+      ],
+      "totalAmount": 349,
+      "currency": "ILS",
+      "status": "confirmed",
+      "shippingAddress": "شارع صلاح الدين، القدس",
+      "city": "القدس",
+      "paymentMethod": "الدفع عند الاستلام",
+      "notes": "يرجى الاتصال قبل التسليم بنصف ساعة.",
+      "createdAt": "2026-10-30T23:28:20.270Z"
+    }
+  ],
+  "playbook": [
+    {
+      "id": "rule-01",
+      "title": "الترحيب الأولي وبناء الثقة",
+      "triggerType": "greeting",
+      "keywords": [
+        "مرحبا",
+        "السلام عليكم",
+        "سلام",
+        "أهلا",
+        "שלום",
+        "היי",
+        "בוקר טוב",
+        "ערב טוב"
+      ],
+      "salesObjective": "الرد باحترافية، الترحيب الدافئ، والاستماع فوراً لما يبحث عنه العميل دون إطالة أو ضغط.",
+      "guidelines": "رد بترحيب أنيق ومختصر، واسأل باحترام عن المنتج أو الخدمة التي يود الاستفسار عنها.",
+      "discountAllowed": false,
+      "maxDiscountPercentage": 0,
+      "enabled": true
+    },
+    {
+      "id": "rule-02",
+      "title": "الاستفسار عن الأسعار والعروض",
+      "triggerType": "pricing",
+      "keywords": [
+        "سعر",
+        "كام",
+        "كم السعر",
+        "بكام",
+        "تكلفة",
+        "מחיר",
+        "כמה עולה",
+        "עלות",
+        "מבצע"
+      ],
+      "salesObjective": "تقديم السعر الرسمي بوضوح من الكتالوج مع ذكر القيمة والضمان المرفق.",
+      "guidelines": "اذكر السعر بدقة بعملة الشيكل (ILS) أو العملة المناسبة، اذكر الضمان والشحن السريع وميزة رئيسية تجعل السعر فرصة ممتازة.",
+      "discountAllowed": true,
+      "maxDiscountPercentage": 10,
+      "enabled": true
+    },
+    {
+      "id": "rule-03",
+      "title": "التعامل مع التردد أو اعتراض السعر مرتفع",
+      "triggerType": "objection",
+      "keywords": [
+        "غالي",
+        "السعر مرتفع",
+        "مكلف",
+        "في أرخص",
+        "יקר",
+        "יקר מדי",
+        "יש הנחה",
+        "אפשר הנחה"
+      ],
+      "salesObjective": "توضيح القيمة العالية، الجودة، وفترة الضمان، مع إمكانية عرض كود خصم ترحيبي 10% إذا كان العميل جاداً.",
+      "guidelines": "ركز على متانة المنتج وعمر البطارية والضمان المحلي لـ 12 شهراً، ويمكنك تقديم خصم فوري 10% لإتمام الطلب اليوم.",
+      "discountAllowed": true,
+      "maxDiscountPercentage": 15,
+      "enabled": true
+    },
+    {
+      "id": "rule-04",
+      "title": "إحالات إعلانات فيسبوك وإنستغرام",
+      "triggerType": "ad_referral",
+      "keywords": [
+        "شفت الإعلان",
+        "إعلان فيسبوك",
+        "المنشور",
+        "من الإعلان",
+        "ראיתי פרסומת",
+        "פייסבוק"
+      ],
+      "salesObjective": "تحديد المنتج المعلن عنه وتقديم تفاصيله الدقيقة مع تأكيد العرض الخاص بحملة الإعلان.",
+      "guidelines": "إذا وردت بيانات الإعلان أو سياق المنتج، اربط العميل بالمنتج مباشرة واشرح تفاصيل العرض دون تكرار أسئلة بديهية.",
+      "discountAllowed": true,
+      "maxDiscountPercentage": 10,
+      "enabled": true
+    }
+  ],
+  "followUps": [],
+  "settings": {
+    "provider": "gemini",
+    "autoReplyEnabled": false,
+    "modelGemini": "gemini-3.8-flash",
+    "modelOpenAI": "gpt-4o",
+    "salesTone": "consultative",
+    "responseLength": "concise",
+    "languages": [
+      "ar",
+      "he",
+      "en"
+    ],
+    "systemPrompt": "أنت موظف مبيعات واستشارات خبير ومحترف في متجر NEXO للتقنية الفاخرة.\nتتحدث باللغة العربية بأسلوب راقٍ، مهذب، ذكي، ومباشر، وتجيد الرد باللغة العبرية والإنجليزية إذا خاطبك العميل بهما.\nمهمتك تقديم معلومات دقيقة وصادقة عن المنتجات والأسعار والمواصفات من الكتالوج المتوفر فقط.\nقواعدك الأساسية:\n1. أجب عن سؤال العميل بدقة واقتضاب ولا تكرر ما تم الإجابة عنه سابقاً.\n2. لا تضف سؤال بيع ميكانيكي أو ملح في نهاية كل رسالة، بل اجعل الحديث سلساً وطبيعياً.\n3. أبرز قيمة المنتج وميزاته التنافسية مقابل السعر الصادق.\n4. لا تختلق أسعاراً أو مواصفات أو ضمانات غير موجودة في الكتالوج.\n5. احترم ذاكرة العميل وما تم تثبيته في المحادثة.",
+    "temperature": 0.7,
+    "maxTokens": 600,
+    "openaiReasoningEffort": "low"
+  },
+  "auditLogs": [
+    {
+      "id": "log-1793489332979-fyuik",
+      "action": "SETTINGS_UPDATED",
+      "details": "تحديث إعدادات الذكاء الاصطناعي (المزود: gemini)",
+      "performedBy": "admin",
+      "timestamp": "2026-10-31T23:28:52.979Z"
+    },
+    {
+      "id": "log-001",
+      "action": "SYSTEM_INITIALIZED",
+      "details": "تم بدء نظام NEXO AI Sales CRM مع محرك Gemini ودعم OpenAI",
+      "performedBy": "system",
+      "timestamp": "2026-10-31T23:28:20.270Z"
+    }
+  ],
+  "admin": {
+    "id": "admin-001",
+    "username": "admin",
+    "name": "مدير المبيعات",
+    "role": "admin"
+  }
+}

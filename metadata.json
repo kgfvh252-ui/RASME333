@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix NEXO AI Sales CRM",
+  "description": "WhatsApp AI Sales CRM powered by Gemini and Baileys multi-device pairing for automated sales conversations, order capture, and catalog management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
